@@ -23,9 +23,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/bin/InputEventFind:vendor/bin/InputEventFind \
   vendor/huawei/angler/proprietary/bin/blockhelper:vendor/bin/blockhelper \
   vendor/huawei/angler/proprietary/bin/cnd:vendor/bin/cnd \
-  vendor/huawei/angler/proprietary/bin/diag_klog:vendor/bin/diag_klog \
-  vendor/huawei/angler/proprietary/bin/diag_mdlog:vendor/bin/diag_mdlog \
-  vendor/huawei/angler/proprietary/bin/diag_test_server:vendor/bin/diag_test_server \
   vendor/huawei/angler/proprietary/bin/dsm_ctrl:vendor/bin/dsm_ctrl \
   vendor/huawei/angler/proprietary/bin/ims_rtp_daemon:vendor/bin/ims_rtp_daemon \
   vendor/huawei/angler/proprietary/bin/imscmservice:vendor/bin/imscmservice \
@@ -47,7 +44,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/bin/radish:vendor/bin/radish \
   vendor/huawei/angler/proprietary/bin/rmt_storage:vendor/bin/rmt_storage \
   vendor/huawei/angler/proprietary/bin/slim_daemon:vendor/bin/slim_daemon \
-  vendor/huawei/angler/proprietary/bin/sound_trigger_test:vendor/bin/sound_trigger_test \
   vendor/huawei/angler/proprietary/bin/thermal-engine:vendor/bin/thermal-engine \
   vendor/huawei/angler/proprietary/bin/time_daemon:vendor/bin/time_daemon \
   vendor/huawei/angler/proprietary/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb:vendor/etc/acdbdata/angler/Angler_Bluetooth_cal.acdb \
@@ -360,18 +356,18 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/lib/libqmi.so:vendor/lib/libqmi.so \
   vendor/huawei/angler/proprietary/lib/libqmi_cci.so:vendor/lib/libqmi_cci.so \
   vendor/huawei/angler/proprietary/lib/libqmi_client_helper.so:vendor/lib/libqmi_client_helper.so \
-  vendor/huawei/angler/proprietary/lib/libqmi_client_qmux.so:vendor/ib/libqmi_client_qmux.so \
+  vendor/huawei/angler/proprietary/lib/libqmi_client_qmux.so:vendor/lib/libqmi_client_qmux.so \
   vendor/huawei/angler/proprietary/lib/libqmi_common_so.so:vendor/lib/libqmi_common_so.so \
   vendor/huawei/angler/proprietary/lib/libqmi_csi.so:vendor/lib/libqmi_csi.so \
   vendor/huawei/angler/proprietary/lib/libqmi_encdec.so:vendor/lib/libqmi_encdec.so \
   vendor/huawei/angler/proprietary/lib/libqmiservices.so:vendor/lib/libqmiservices.so \
-  vendor/huawei/angler/proprietary/lib/libqomx_jpegdec.so:vendor/ib/libqomx_jpegdec.so \
+  vendor/huawei/angler/proprietary/lib/libqomx_jpegdec.so:vendor/lib/libqomx_jpegdec.so \
   vendor/huawei/angler/proprietary/lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so \
   vendor/huawei/angler/proprietary/lib/libqomx_jpegenc_pipe.so:vendor/lib/libqomx_jpegenc_pipe.so \
   vendor/huawei/angler/proprietary/lib/libqti-perfd-client.so:vendor/lib/libqti-perfd-client.so \
-  vendor/huawei/angler/proprietary/lib/libril-qc-qmi-1.so:vendor/ib/libril-qc-qmi-1.so \
+  vendor/huawei/angler/proprietary/lib/libril-qc-qmi-1.so:vendor/lib/libril-qc-qmi-1.so \
   vendor/huawei/angler/proprietary/lib/libril-qcril-hook-oem.so:vendor/lib/libril-qcril-hook-oem.so \
-  vendor/huawei/angler/proprietary/lib/librpmb.so:vendor/ib/librpmb.so \
+  vendor/huawei/angler/proprietary/lib/librpmb.so:vendor/lib/librpmb.so \
   vendor/huawei/angler/proprietary/lib/librs.rnr_downscale.so:vendor/lib/librs.rnr_downscale.so \
   vendor/huawei/angler/proprietary/lib/librs.rnr_process.so:vendor/lib/librs.rnr_process.so \
   vendor/huawei/angler/proprietary/lib/librs_adreno.so:vendor/lib/librs_adreno.so \
@@ -381,7 +377,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/lib/libssd.so:vendor/lib/libssd.so \
   vendor/huawei/angler/proprietary/lib/libsystem_health_mon.so:vendor/lib/libsystem_health_mon.so \
   vendor/huawei/angler/proprietary/lib/libthermalclient.so:vendor/lib/libthermalclient.so \
-  vendor/huawei/angler/proprietary/lib/libtime_genoff.so:vendor/ib/libtime_genoff.so \
+  vendor/huawei/angler/proprietary/lib/libtime_genoff.so:vendor/lib/libtime_genoff.so \
   vendor/huawei/angler/proprietary/lib/libtzdrmgenprov.so:vendor/lib/libtzdrmgenprov.so \
   vendor/huawei/angler/proprietary/lib/libvoice-svc.so:vendor/lib/libvoice-svc.so \
   vendor/huawei/angler/proprietary/lib/libwms.so:vendor/lib/libwms.so \
