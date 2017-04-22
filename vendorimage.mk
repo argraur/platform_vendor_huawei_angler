@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/lib/hw/keystore.msm8994.so:vendor/lib/hw/keystore.msm8994.so \
   vendor/huawei/angler/proprietary/lib/hw/sound_trigger.primary.msm8994.so:vendor/lib/hw/sound_trigger.primary.msm8994.so \
   vendor/huawei/angler/proprietary/lib/hw/tof.vl6180.so:vendor/lib/hw/tof.vl6180.so \
-  vendor/huawei/angler/proprietary/lib/vulkan.msm8994.so:vendor/lib/vulkan.msm8994.so \
+  vendor/huawei/angler/proprietary/lib/hw/vulkan.msm8994.so:vendor/lib/hw/vulkan.msm8994.so \
   vendor/huawei/angler/proprietary/lib/mediadrm/libdrmclearkeyplugin.so:vendor/lib/mediadrm/libdrmclearkeyplugin.so \
   vendor/huawei/angler/proprietary/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
   vendor/huawei/angler/proprietary/lib/lib-dplmedia.so:vendor/lib/lib-dplmedia.so \
