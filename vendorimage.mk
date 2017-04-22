@@ -522,7 +522,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/media/PFFprec_600.emd:vendor/media/PFFprec_600.emd \
   vendor/huawei/angler/proprietary/qcril_database/upgrade/1_version_intro.sql:vendor/qcril_database/upgrade/1_version_intro.sql \
   vendor/huawei/angler/proprietary/qcril_database/upgrade/2_db_upgrade.sql:vendor/qcril_database/upgrade/2_db_upgrade.sql \
-  vendor/huawer/angler/proprietary/xbin/wlutil:vendor/xbin/wlutil \
+  vendor/huawei/angler/proprietary/xbin/wlutil:vendor/xbin/wlutil \
   vendor/huawei/angler/proprietary/qcril.db:vendor/qcril.db
   
 # Add ims and TimeService
