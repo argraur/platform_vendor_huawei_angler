@@ -90,7 +90,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/firmware/adsp.b09:vendor/firmware/adsp.b09 \
   vendor/huawei/angler/proprietary/firmware/adsp.b10:vendor/firmware/adsp.b10 \
   vendor/huawei/angler/proprietary/firmware/adsp.b11:vendor/firmware/adsp.b11 \
-  vendor/huawei/angler/proprietary/firmware/adsp.b12:vendor/firmware/adsp.b12 \ 
+  vendor/huawei/angler/proprietary/firmware/adsp.b12:vendor/firmware/adsp.b12 \
   vendor/huawei/angler/proprietary/firmware/adsp.b13:vendor/firmware/adsp.b13 \
   vendor/huawei/angler/proprietary/firmware/adsp.b14:vendor/firmware/adsp.b14 \
   vendor/huawei/angler/proprietary/firmware/adsp.b15:vendor/firmware/adsp.b15 \
