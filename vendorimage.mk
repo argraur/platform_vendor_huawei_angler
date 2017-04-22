@@ -15,7 +15,7 @@
 # Copying lib for ims into system
 PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:system/app/ims/lib64/libimscamera_jni.so \
-  vendor/huawei/angler/propritary/lib64/libimsmedia_jni.so:system/app/ims/lib64/libimsmedia_jni.so
+  vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/app/ims/lib64/libimsmedia_jni.so
   
 # Starting real vendor making.
 PRODUCT_COPY_FILES += \
