@@ -61,9 +61,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/etc/data/dsi_config.xml:vendor/etc/data/dsi_config.xml \
   vendor/huawei/angler/proprietary/etc/data/netmgr_config.xml:vendor/etc/data/netmgr_config.xml \
   vendor/huawei/angler/proprietary/etc/data/qmi_config.xml:vendor/etc/data/qmi_config.xml \
-  vendor/huawei/angler/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:vendor/etc/firmware/wcd9320/wcd9320_anc.bin \
-  vendor/huawei/angler/proprietary/etc/firmware/wcd9320/wcd9320_mad_audio.bin:vendor/etc/firmware/wcd9320/wcd9320_mad_audio.bin \
-  vendor/huawei/angler/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:vendor/etc/firmware/wcd9320/wcd9320_mbhc.bin \
   vendor/huawei/angler/proprietary/etc/audio_effects.conf:vendor/etc/audio_effects.conf \
   vendor/huawei/angler/proprietary/etc/audio_output_policy.conf:vendor/etc/audio_output_policy.conf \
   vendor/huawei/angler/proprietary/etc/flp.conf:vendor/etc/flp.conf \
@@ -532,6 +529,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
   ims \
   TimeService
+
+# Some files use links
+LOCAL_POST_INSTALL_CMD := \
+  ln -s /data/misc/audio/wcd9320_anc.bin vendor/etc/firmware/wcd9320/wcd9320_anc.bin; \
+  ln -s /data/misc/audio/wcd9320_mad_audio.bin vendor/etc/firmware/wcd9320/wcd9320_mad_audio.bin; \
+  ln -s /data/misc/audio/wcd9320_mbhc.bin vendor/etc/firmware/wcd9320/wcd9320_mbhc.bin; \
   
   
   
