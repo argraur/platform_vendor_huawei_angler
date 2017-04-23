@@ -391,7 +391,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/lib64/hw/tof.vl6180.so:vendor/lib64/hw/tof.vl6180.so \
   vendor/huawei/angler/proprietary/lib64/hw/vulkan.msm8994.so:vendor/lib64/hw/vulkan.msm8994.so \
   vendor/huawei/angler/proprietary/lib64/mediadrm/libdrmclearkeyplugin.so:vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
-  vendor/huawei/angler/proprietary/lib64/eglSubDriverAndroid.so:vendor/lib64/eglSubDriverAndroid.so \
   vendor/huawei/angler/proprietary/lib64/lib-dplmedia.so:vendor/lib64/lib-dplmedia.so \
   vendor/huawei/angler/proprietary/lib64/lib-ims-rcscmjni.so:vendor/lib64/lib-ims-rcscmjni.so \
   vendor/huawei/angler/proprietary/lib64/lib-imsSDP.so:vendor/lib64/lib-imsSDP.so \
@@ -413,9 +412,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/lib64/libC2D2.so:vendor/lib64/libC2D2.so \
   vendor/huawei/angler/proprietary/lib64/libCB.so:vendor/lib64/libCB.so \
   vendor/huawei/angler/proprietary/lib64/libCommandSvc.so:vendor/lib64/libCommandSvc.so \
-  vendor/huawei/angler/proprietary/lib64/libEGL_adreno.so:vendor/lib64/libEGL_adreno.so \
-  vendor/huawei/angler/proprietary/lib64/libGLESv1_CM_adreno.so:vendor/lib64/libGLESv1_CM_adreno.so \
-  vendor/huawei/angler/proprietary/lib64/libGLESv2_adreno.so:vendor/libGLESv2_adreno.so \
   vendor/huawei/angler/proprietary/lib64/libQSEEComAPI.so:vendor/libQSEEComAPI.so \
   vendor/huawei/angler/proprietary/lib64/libRSDriver_adreno.so:vendor/lib64/libRSDriver_adreno.so \
   vendor/huawei/angler/proprietary/lib64/libTimeService.so:vendor/lib64/libTimeService.so \
