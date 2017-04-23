@@ -150,7 +150,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/lib/lib-imsqimf.so:vendor/lib/lib-imsqimf.so \
   vendor/huawei/angler/proprietary/lib/lib-imsrcs.so:vendor/lib/lib-imsrcs.so \
   vendor/huawei/angler/proprietary/lib/lib-imsrcscm.so:vendor/lib/lib-imsrcscm.so \
-  vendor/huawei/angler/proprietary/lib/lib-imsrcscmclient.so:vendor/lib-imsrcscmclient.so \
+  vendor/huawei/angler/proprietary/lib/lib-imsrcscmclient.so:vendor/lib/lib-imsrcscmclient.so \
   vendor/huawei/angler/proprietary/lib/lib-imsrcscmservice.so:vendor/lib/lib-imsrcscmservice.so \
   vendor/huawei/angler/proprietary/lib/lib-imss.so:vendor/lib/lib-imss.so \
   vendor/huawei/angler/proprietary/lib/lib-imsvt.so:vendor/lib/lib-imsvt.so \
@@ -412,7 +412,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/lib64/libC2D2.so:vendor/lib64/libC2D2.so \
   vendor/huawei/angler/proprietary/lib64/libCB.so:vendor/lib64/libCB.so \
   vendor/huawei/angler/proprietary/lib64/libCommandSvc.so:vendor/lib64/libCommandSvc.so \
-  vendor/huawei/angler/proprietary/lib64/libQSEEComAPI.so:vendor/libQSEEComAPI.so \
+  vendor/huawei/angler/proprietary/lib64/libQSEEComAPI.so:vendor/lib64/libQSEEComAPI.so \
   vendor/huawei/angler/proprietary/lib64/libRSDriver_adreno.so:vendor/lib64/libRSDriver_adreno.so \
   vendor/huawei/angler/proprietary/lib64/libTimeService.so:vendor/lib64/libTimeService.so \
   vendor/huawei/angler/proprietary/lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so \
