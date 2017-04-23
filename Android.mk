@@ -49,8 +49,8 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_POST_INSTALL_CMD := \
     test -s vendor/huawei/angler/proprietary/prebuilt/target/product/msm8994/system/etc/izat.conf || { \
     mkdir -p $(PRODUCT_OUT)/system/app/ims/lib/arm64; \
-    ln -sf /vendor/app/lib64/libimscamera_jni.so $(PRODUCT_OUT)/system/app/ims/lib64/libimscamera_jni.so; \
-    ln -sf /vendor/app/lib64/libimsmedia_jni.so $(PRODUCT_OUT)/system/app/ims/lib64/libimsmedia_jni.so; \
+    ln -sf /vendor/app/lib64/libimscamera_jni.so $(PRODUCT_OUT)/system/app/ims/lib/arm64/libimscamera_jni.so; \
+    ln -sf /vendor/app/lib64/libimsmedia_jni.so $(PRODUCT_OUT)/system/app/ims/lib/arm64/libimsmedia_jni.so; \
     mkdir -p $(PRODUCT_OUT)/vendor/etc/firmware/wcd9320; \
     ln -sf /data/misc/audio/wcd9320_anc.bin $(PRODUCT_OUT)/vendor/etc/firmware/wcd9320/wcd9320_anc.bin; \
     ln -sf /data/misc/audio/wcd9320_mad_audio.bin $(PRODUCT_OUT)/vendor/etc/firmware/wcd9320/wcd9320_mad_audio.bin; \
