@@ -11,13 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-# Copying lib for ims into system
-PRODUCT_COPY_FILES += \
-  vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:system/app/ims/lib64/libimscamera_jni.so \
-  vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/app/ims/lib64/libimsmedia_jni.so
   
-# Starting real vendor making.
 PRODUCT_COPY_FILES += \
   vendor/huawei/angler/proprietary/bin/ATFWD-daemon:vendor/bin/ATFWD-daemon \
   vendor/huawei/angler/proprietary/bin/InputEventFind:vendor/bin/InputEventFind \
@@ -524,13 +518,8 @@ PRODUCT_COPY_FILES += \
 # Add ims and TimeService
 PRODUCT_PACKAGES += \
   ims \
-  TimeService
-
-# Some files use links
-LOCAL_POST_INSTALL_CMD := \
-  ln -s /data/misc/audio/wcd9320_anc.bin vendor/etc/firmware/wcd9320/wcd9320_anc.bin; \
-  ln -s /data/misc/audio/wcd9320_mad_audio.bin vendor/etc/firmware/wcd9320/wcd9320_mad_audio.bin; \
-  ln -s /data/misc/audio/wcd9320_mbhc.bin vendor/etc/firmware/wcd9320/wcd9320_mbhc.bin; \
+  TimeService \
+  VendorLinks
   
   
   
